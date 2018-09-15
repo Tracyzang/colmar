@@ -1,0 +1,165 @@
+
+/*first-part*/
+.head{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  height:64px;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  height: 32px;
+}
+
+nav{
+  justify-content: space-between;
+}
+
+nav span{
+  margin-left: 16px;
+  margin-right: 24px;
+}
+
+.banner{
+  display:flex;
+  background-color: Gainsboro;
+  width: 100%;
+}
+
+.banner img{
+  margin:32px 24px;
+  display: inline-block;
+  vertical-align: center;
+}
+
+.bannertext{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30%;
+}
+
+button{
+  padding:8px;
+}
+
+/*second-part*/
+
+.secondpart{
+  display: flex;
+  width: 100%;
+}
+
+.left img{
+  width: 60%;
+  padding:0px;
+}
+
+.left{
+  width: 60%;
+  padding: 32px 24px;
+}
+
+.left h1{
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+
+.left h5{
+  margin-bottom: 32px;
+}
+
+.orientation{
+  display: flex;
+}
+
+.campus{
+  display: flex;
+}
+
+.guest{
+  display: flex;
+  background-color: Gainsboro;
+}
+
+.right{
+  width: 40%;
+  padding-left: 24px;
+}
+
+.right img{
+  margin:16px 16px;
+  height: auto;
+  width: 35%;
+}
+
+.text{
+  width: 65%;
+}
+
+/*third-part*/
+
+.thirdpart{
+  background-color: Gainsboro;
+}
+
+.row1{
+  display: flex;
+  padding-left: 72px;
+  padding-right: 72px;
+  width: auto;
+}
+
+.computer-art{
+  margin-left: 32px;
+
+}
+
+.Design{
+  margin-left: 32px;
+}
+
+.thirdpart text{
+  background-color: white;
+}
+
+.row2{
+  display: flex;
+  padding-left: 72px;
+  padding-right: 72px;
+}
+
+.business{
+  margin-left: 32px;
+}
+
+.Marketing{
+  margin-left: 32px;
+}
+
+.thirdpart h1{
+  text-align: center;
+  padding:32px;
+}
+
+/*fourth-part*/
+
+.fourthpart h1{
+  text-align: center;
+  padding: 32px;
+  align-items: center;
+}
+
+.Fisma {
+  display: flex;
+}
+
+.Now-and-then{
+  display: flex;
+}
+
+.total{
+  display: flex;
+}
