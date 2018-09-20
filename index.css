@@ -1,3 +1,30 @@
+/*universal style*/
+html {
+	font-size: 16px;
+	font-family: "Verdana", Sans-serif;
+	color: black;
+}
+
+body{
+	margin: 0;
+}
+
+h2{
+	font-size: 25px;
+	text-align: center;
+}
+
+h4{
+	font-family: Convergence;
+	font-size: 20px;
+	font-weight: bold;
+	font-weight: normal;
+}
+
+h6{
+	font-family: Convergence;
+	font-size: 20px;
+}
 
 /*first-part*/
 .head{
@@ -11,27 +38,31 @@
   display: flex;
   align-items: center;
   height: 32px;
+	margin-left: 24px;
 }
 
 nav{
   justify-content: space-between;
+	margin-right:24px;
 }
 
 nav span{
   margin-left: 16px;
-  margin-right: 24px;
 }
+
 
 .banner{
   display:flex;
   background-color: Gainsboro;
   width: 100%;
+  border: orangered dotted 1px;
+  box-sizing: border-box;
 }
 
 .banner img{
-  margin:32px 24px;
-  display: inline-block;
-  vertical-align: center;
+  padding:32px 24px;
+  border: orangered dotted 1px;
+  box-sizing: border-box;
 }
 
 .bannertext{
@@ -39,10 +70,14 @@ nav span{
   flex-direction: column;
   justify-content: center;
   width: 30%;
+  padding-left: 24px;
 }
 
 button{
   padding:8px;
+  color:white;
+  background-color: black;
+
 }
 
 /*second-part*/
@@ -53,13 +88,15 @@ button{
 }
 
 .left img{
-  width: 60%;
   padding:0px;
+  width: 100%
 }
 
 .left{
   width: 60%;
   padding: 32px 24px;
+  border: orangered dotted 1px;
+  box-sizing: border-box;
 }
 
 .left h1{
@@ -80,36 +117,72 @@ button{
 }
 
 .guest{
-  display: flex;
-  background-color: Gainsboro;
+	display: flex;
 }
 
 .right{
   width: 40%;
   padding-left: 24px;
+  border: orangered dotted 1px;
+  box-sizing: border-box;
 }
 
-.right img{
-  margin:16px 16px;
+.img1{
+	border: orangered dotted 1px;
+	box-sizing: border-box;
+	width: 35%;
+}
+
+.orientation img{
+  margin-top: 16px;
   height: auto;
-  width: 35%;
+  border: orangered dotted 1px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.campus img{
+	margin-top: 16px;
+  height: auto;
+  border: orangered dotted 1px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.guest img{
+	margin-top: 16px;
+  height: auto;
+  border: orangered dotted 1px;
+  box-sizing: border-box;
+  width: 100%;
 }
 
 .text{
-  width: 65%;
+  border: orangered dotted 1px;
+  box-sizing: border-box;
+	width: 65%;
 }
 
 /*third-part*/
 
 .thirdpart{
   background-color: Gainsboro;
+  border: orangered dotted 1px;
+  box-sizing: border-box;
+}
+
+.img2{
+	border: orangered dotted 1px;
+  box-sizing: border-box;
+	height: auto;
 }
 
 .row1{
   display: flex;
   padding-left: 72px;
   padding-right: 72px;
-  width: auto;
+  border: orangered dotted 1px;
+  box-sizing: border-box;
 }
 
 .computer-art{
@@ -156,10 +229,37 @@ button{
   display: flex;
 }
 
+.Fisma img{
+	width: 100%;
+}
+
 .Now-and-then{
   display: flex;
 }
 
+.Now-and-then img{
+	width: 100%;
+}
+
 .total{
   display: flex;
+}
+
+footer{
+  border: orangered dotted 1px;
+  box-sizing: border-box;
+  margin-left: 24px;
+  margin-top: 16px;
+  margin-bottom: 50px;
+	padding-right: 24px;
+}
+
+footer span{
+  float: right;
+	margin-left: 16px;
+}
+
+/*mobile device*/
+@media only screen and (max-width: 600px){
+	}
 }
