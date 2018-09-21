@@ -50,6 +50,10 @@ nav span{
   margin-left: 16px;
 }
 
+.icons{
+	display: none;
+}
+
 
 .banner{
   display:flex;
@@ -87,24 +91,24 @@ button{
   width: 100%;
 }
 
-.left img{
+.left1 img{
   padding:0px;
   width: 100%
 }
 
-.left{
+.left1{
   width: 60%;
   padding: 32px 24px;
   border: orangered dotted 1px;
   box-sizing: border-box;
 }
 
-.left h1{
+.left1 h1{
   margin-top: 32px;
   margin-bottom: 24px;
 }
 
-.left h5{
+.left1 h5{
   margin-bottom: 32px;
 }
 
@@ -120,7 +124,7 @@ button{
 	display: flex;
 }
 
-.right{
+.right1{
   width: 40%;
   padding-left: 24px;
   border: orangered dotted 1px;
@@ -183,20 +187,36 @@ button{
   padding-right: 72px;
   border: orangered dotted 1px;
   box-sizing: border-box;
+	width: 100%;
 }
+
+.software-engineering{
+	width: 31%;
+}
+
+.software-engineering img{
+	width: 100%;
+}
+
+
 
 .computer-art{
   margin-left: 32px;
+	width: 31%;
+}
 
+.computer-art img{
+	width: 100%;
 }
 
 .Design{
   margin-left: 32px;
+	width: 31%;
+}
+.Design img{
+	width: 100%;
 }
 
-.thirdpart text{
-  background-color: white;
-}
 
 .row2{
   display: flex;
@@ -204,12 +224,35 @@ button{
   padding-right: 72px;
 }
 
+.text{
+	width: 100%;
+	background-color: white;
+}
+
+.Data{
+	width: 31%;
+}
+
+.Data img{
+	width: 100%;
+}
 .business{
   margin-left: 32px;
+	width: 31%;
 }
+
+.business img{
+	width: 100%;
+}
+
 
 .Marketing{
   margin-left: 32px;
+	width: 31%;
+}
+
+.Marketing img{
+	width: 100%;
 }
 
 .thirdpart h1{
@@ -218,6 +261,17 @@ button{
 }
 
 /*fourth-part*/
+.left2 img{
+  padding:0px;
+  width: 100%
+}
+
+.left2{
+  width: 60%;
+  padding: 32px 24px;
+  border: orangered dotted 1px;
+  box-sizing: border-box;
+}
 
 .fourthpart h1{
   text-align: center;
@@ -245,6 +299,14 @@ button{
   display: flex;
 }
 
+.right2{
+  width: 40%;
+  padding-left: 24px;
+  border: orangered dotted 1px;
+  box-sizing: border-box;
+	padding-top: 16px;
+}
+
 footer{
   border: orangered dotted 1px;
   box-sizing: border-box;
@@ -260,6 +322,52 @@ footer span{
 }
 
 /*mobile device*/
+
+@media only screen and (max-width: 750px) {
+  .icons {
+    display: inline-block;
+  }
+  .icons img {
+    margin: auto 2rem;
+	}
+
+	nav{
+			display: none;
+		}
+
+	.logo{
+		display: none;
+	}
+
+	.banner{
+		flex-direction: column;
+		margin:auto;
+	}
+
+	.banner img{
+		width: 100%;
+	}
+
+	.left1{
+		display: none;
+	}
+	.right1{
+		width: 100%;
+	}
+
+	.right2{
+		display: none;
+	}
+  .left2{
+		width: 100%;
+	}
+
+	.left2 p,h3{
+		display: none;
+	}
+
+  }
+
 @media only screen and (max-width: 600px){
 	}
 }
