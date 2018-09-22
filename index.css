@@ -26,6 +26,11 @@ h6{
 	font-size: 20px;
 }
 
+a {
+  text-decoration: none;
+  color: blue;
+}
+
 /*first-part*/
 .head{
   display:flex;
@@ -39,6 +44,7 @@ h6{
   align-items: center;
   height: 32px;
 	margin-left: 24px;
+	font-size: 1.2rem;
 }
 
 nav{
@@ -46,7 +52,7 @@ nav{
 	margin-right:24px;
 }
 
-nav span{
+nav a{
   margin-left: 16px;
 }
 
@@ -227,6 +233,7 @@ button{
 .text{
 	width: 100%;
 	background-color: white;
+	padding-left: 16px;
 }
 
 .Data{
@@ -327,6 +334,7 @@ footer span{
   .icons {
     display: inline-block;
   }
+
   .icons img {
     margin: auto 2rem;
 	}
@@ -348,12 +356,28 @@ footer span{
 		width: 100%;
 	}
 
+	.orientation,
+	.campus,
+	.guest {
+		display: flex;
+		flex-direction: column;
+		margin:auto;
+		text-align: center;
+	}
+
+	.img1{
+		width: 80%;
+		text-align: center;
+		margin:auto;
+	}
+
 	.left1{
 		display: none;
 	}
 	.right1{
 		width: 100%;
 	}
+
 
 	.right2{
 		display: none;
@@ -362,12 +386,51 @@ footer span{
 		width: 100%;
 	}
 
-	.left2 p,h3{
+	.text1{
 		display: none;
 	}
 
-  }
-
-@media only screen and (max-width: 600px){
+	.row1,
+	.row2{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding:0;
+		margin:0;
 	}
-}
+
+	.computer-art,
+	.Design,
+	.Data,
+	.business,
+	.Marketing{
+		margin:0;
+	}
+
+	.row2{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+
+	.img2{
+		display: none;
+	}
+	.left2 h3,p{
+		display: none;
+	}
+
+	.bannertext{
+		width: 100%;
+	}
+
+	button{
+		width: 80%;
+		margin-bottom:32px;
+		padding:8px;
+		background-color: grey;
+	}
+
+
+  }
